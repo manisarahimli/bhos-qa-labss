@@ -2,4 +2,6 @@
 Manisa Rahimli
 manisa.rehimli.std@bhos.edu.az
 
-![example branch parameter](https://github.com/github/bhos-qa-labss/actions/workflows/gradle.yml/badge.svg?branch=feature/lab1)
+### Status Badge for Workflow Runs 
+
+![](https://github.com/manisarahimli/bhos-qa-labss/actions/workflows/gradle.yml/badge.svg?branch=feature/lab1) 
