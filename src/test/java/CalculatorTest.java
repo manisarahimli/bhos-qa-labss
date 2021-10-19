@@ -1,3 +1,6 @@
+package test.java;
+
+import main.java.Calculator;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.DisplayName;
