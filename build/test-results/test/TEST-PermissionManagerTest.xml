@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PermissionManagerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-21T11:05:48" hostname="LAPTOP-CPUSCE91" time="0.035">
-  <properties/>
-  <testcase name="Unit Test for getPermissionLevel() method" classname="PermissionManagerTest" time="0.023"/>
-  <testcase name="Unit Test for setPermissionLevel() method" classname="PermissionManagerTest" time="0.011"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
