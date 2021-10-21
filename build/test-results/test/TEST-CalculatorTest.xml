@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-10-21T11:29:04" hostname="LAPTOP-CPUSCE91" time="0.031">
+  <properties/>
+  <testcase name="repetition 1 of 5" classname="CalculatorTest" time="0.02"/>
+  <testcase name="repetition 2 of 5" classname="CalculatorTest" time="0.0"/>
+  <testcase name="repetition 3 of 5" classname="CalculatorTest" time="0.001"/>
+  <testcase name="repetition 4 of 5" classname="CalculatorTest" time="0.001"/>
+  <testcase name="repetition 5 of 5" classname="CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
