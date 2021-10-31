@@ -11,5 +11,7 @@ public class Book {
         this.author = author;
 
     }
+    
+    public  Book () {};
 
 }
