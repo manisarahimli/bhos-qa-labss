@@ -20,6 +20,8 @@ public class FirebaseTest {
         BookService.saveBook(postedBook);
 
         Book theBook = BookService.getBookDetails("Ali and Nino");
+        
+        assert theBook != null;
 
         assertEquals(postedBook.name, theBook.name);
         assertEquals(postedBook.author, theBook.author);
