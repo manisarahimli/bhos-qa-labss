@@ -19,7 +19,7 @@ public class FirebaseInitialization {
 
             FileInputStream serviceAccount =
 
-                    new FileInputStream("./serviceAccountKey.json");
+                    new FileInputStream("./serviceApplicationKey.json");
 
             FirebaseOptions options = new FirebaseOptions.Builder()
 
