@@ -15,24 +15,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class FirebaseTest {
 
     @Test
-    public void testingSave() {
+    public void testingSave() throws ExecutionException, InterruptedException {
         Book postedBook = new Book("Ali and Nino", "Kurban Said");
-        try {
-            BookService.saveBook(postedBook);
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        BookService.saveBook(postedBook);
 
-        Book theBook = null;
-        try {
-            theBook = BookService.getBookDetails("Ali and Nino");
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        Book theBook = BookService.getBookDetails("Ali and Nino");
 
         assert theBook != null;
 
