@@ -23,7 +23,6 @@ public class FirebaseTest {
         
         assert theBook != null;
 
-        assert theBook != null;
         assertEquals(postedBook.name, theBook.name);
         assertEquals(postedBook.author, theBook.author);
     }
