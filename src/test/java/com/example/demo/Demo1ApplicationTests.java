@@ -56,7 +56,7 @@ class Demo1ApplicationTests {
 
         assertEquals("Manisa", name.getString("stringValue"));
         assertEquals("Rahimli", surname.getString("stringValue"));
-        assertEquals("987654321", phone.getString("stringValue"));
+        assertEquals("123456789", phone.getString("stringValue"));
 
     }
 
