@@ -50,13 +50,13 @@ class Demo1ApplicationTests {
         JSONObject fields = resBody2.getJSONObject("fields");
 
         JSONObject name = fields.getJSONObject("name");
-        JSONObject phone = fields.getJSONObject("phone");
         JSONObject surname = fields.getJSONObject("surname");
+        JSONObject phone = fields.getJSONObject("phone");
 
 
         assertEquals("Manisa", name.getString("stringValue"));
-        assertEquals("987654321", phone.getString("stringValue"));
         assertEquals("Rahimli", surname.getString("stringValue"));
+        assertEquals("987654321", phone.getString("stringValue"));
 
     }
 
