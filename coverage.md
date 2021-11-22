@@ -1,0 +1,1 @@
+SonarCloud is a platform which lets us know about our code or branch coverage. My code coverage from previous lab (lab3) was 95% for example
